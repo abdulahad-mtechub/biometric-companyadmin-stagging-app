@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Deep Link Test</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <h1>Deep Link Test</h1>
+    <p>Click the link below to open the app:</p>
+
+    <!-- Intent link with referral -->
+    <a
+      href="intent://open?referral=ABC123#Intent;scheme=biometricprocompanyadminapp;package=com.biometricprocompanyadminapp;end">
+      Open My App with Intent (Referral)
+    </a>
+    <br /><br />
+
+    <!-- Custom scheme link with referral -->
+    <a href="biometricprocompanyadminapp://open?referral=ABC123">
+      Open My App (Custom Scheme with Referral)
+    </a>
+  </body>
+</html>
